@@ -1,5 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## The Pizza Order store
+
+Now the time has come, my friend....
+
+You will now create the first source of your future income: Your own online store.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
