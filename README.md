@@ -8,8 +8,12 @@ You will now create the first source of your future income: Your own online stor
 
 ### Stage 1 - Pizza List
 
+Create a list of pizzas. So far no ContextAPI involved...
+
 - Create a component to display a pizza 
   - Display Image, title, description and price
+  - The data should come from props please
+  - Add a "Buy" button
 
 - Create a PizzaList component
   - Define a list of products using useState
@@ -17,9 +21,7 @@ You will now create the first source of your future income: Your own online stor
   - Render a list of Pizza components from that data
     - Pass in your data as prop to your pizza component please
 
-- Pizza component
-  - Add a "Buy" button
-
+Hint: You can also start in your App.js file and code your list there, if that's easier for you. Once everything works, create the components listed above.
 
 ### Stage 2 - Outsource your data to ContextAPI
 
