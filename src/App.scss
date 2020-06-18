@@ -32,3 +32,29 @@ main {
   min-height: 70vh;
   padding: 5vh 10vw;
 }
+
+.pizza-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4em;
+  border-bottom: 10px dashed #282c34;
+  img {
+    width: 40%;
+  }
+  button {
+    padding: 1.5em 4.5em;
+    border-radius: 20%;
+    outline: none;
+    border: 1px solid #282c34;
+    margin-bottom: 2em;
+    color: white;
+    background-color: #282c34;
+    &:hover {
+      background-color: white;
+      color: #282c34;
+      cursor: pointer;
+    }
+  }
+}

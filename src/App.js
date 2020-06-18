@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.scss';
+import PizzaList from './components/PizzaList';
+import PizzaProvider from './store/PizzaContext';
 
 function App() {
   return (
@@ -7,7 +9,12 @@ function App() {
       <header className="App-header">
         <h1>Pizza Store</h1>
       </header>
-      <main>Pizza List</main>
+      <main>
+        <PizzaProvider>
+          <PizzaList />
+        </PizzaProvider>
+      </main>
+
     </div>
   );
 }
